@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: lightgrey;
+    display: block;
+    border-radius: 10px;
+}
+.nav-bar > ul {
+    list-style-type: none;
+    margin:  30px;
+    padding: 10px;
+    background: rbg(21, 152, 154);
+    background: linear-gradient(0deg, rgba(21, 152, 154, 1) 3%, rgba(0, 0, 0, 1) 97%);
+}
+.nav-bar > ul > li > a {
+    padding: 20px;
+}
+.nav-bar > ul > li > a:hover {
+    background: #173459;
+    color: #f8f9f9;
+}
+.nav-bar .active {
+    background: #173459;
+    color: #f8f9f9;
+}
